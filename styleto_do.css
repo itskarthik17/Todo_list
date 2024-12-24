@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: linear-gradient(to bottom right,rgb(221, 81, 221),rgb(68, 68, 210)) no-repeat center fixed;
+    background-size: cover;
+}
+
+button{
+    cursor: pointer;
+}
+
+.header{
+    color: black;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 8px black;
+    background-color: whitesmoke;
+}
+
+.get-input{
+    text-align: center;
+    background-color: rgb(195, 195, 195);
+    text-align: center;
+    height: 150px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px black;
+}
+
+#input{
+    margin: 5px;
+    font-size: medium;
+    padding: 5px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: black;
+    border-width: .5px;
+}
+
+.get-input h2{
+    color: black;
+    padding: 20px;
+}
+
+.get-input button{
+    font-size: medium;
+    padding: 5px;
+    background-color: lightcyan;
+    border-width: .5px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.get-input button:hover{
+    border-width: 1px;
+    background-color: aqua;
+    transition: .5s;
+    
+}
+
+.list-container{
+    background-color: whitesmoke;
+    --background-image: linear-gradient(to bottom right,rgb(221, 81, 221),rgb(68, 68, 210));
+    border-radius: 5px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 2px 8px black;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-container ul{
+    font-size: 20px;
+    padding: 5px;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+#remo{
+    margin-left: 10px;
+    font-size: 15px;
+    padding: 5px;
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+.list-container ul li{
+    padding-bottom: 10px;
+}
